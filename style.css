@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+header {
+    height: 100px;
+    background-color: #210e12;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    color: white;
+}
+
+
+/*Testing out notes in CSS*/
+
+main {
+    text-align: center;
+}
+
+ul {
+    color: #ff7260;
+    list-style-image: url(images/mountain-icon.png);
+}
+
+footer {
+    padding-top: 50px;
+    height: 100px;
+    background-color: #210e12;
+    /* Dark Brown */
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+#photo {
+    text-align: center;
+}
+
+body {
+    background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png)
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    font: san-sarif;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
