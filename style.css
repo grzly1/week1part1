@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 header {
-    height: 100px;
+    height: 5%;
     background-color: #210e12;
     font-family: 'Permanent Marker', cursive;
 }
@@ -30,8 +30,9 @@ ul {
 }
 
 footer {
-    padding-top: 50px;
-    height: 100px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 5%;
     background-color: #210e12;
     /* Dark Brown */
     text-align: center;
@@ -41,6 +42,10 @@ footer {
 
 #photo {
     text-align: center;
+}
+
+img {
+    width: 100%;
 }
 
 body {
@@ -60,4 +65,22 @@ p {
 h2 {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
+}
+
+a:link {
+    color: #210E12;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #DA66A5;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: grey;
+}
+
+a:active {
+    color: red;
 }
